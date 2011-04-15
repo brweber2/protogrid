@@ -44,12 +44,12 @@
 >    var foo
 
 ### assignment
-* <name> = <value>
+* _name_ = _value_
 
 >    foo = bar.baz("abc")
 
 ### slot access
-* <object>.<slot>
+* _object_._slot_
 
 > foo.bar
 
@@ -57,17 +57,17 @@
 > clone(Object)
 
 ### define a function (can be invoked)
-* [ <params> ] { <code> }
+* [ _params>_] { _code_ }
 
 > [a b] { a * b + a }
 
 ### define a block (can be invoked)
-* { <code> }
+* { _code>_}
 
 > { println( "hi" ) }
 
 ### invoke a function
-* <obj> ( <args> )
+* _obj_ ( _args_ )
 
 > foo( "abc", bar() )
 
