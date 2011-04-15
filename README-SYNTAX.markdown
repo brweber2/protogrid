@@ -9,7 +9,7 @@
 
 * String
 
->    "abc\"def"
+>    "abc\\\"def"
 
 ### built in objects
 > true
@@ -39,7 +39,7 @@
 * while( <cond> <block> )
 
 ### create a variable in the current scope
-* var <name>
+* var _name_
 
 >    var foo
 
