@@ -11,5 +11,5 @@
 * Run the REPL jar (java -jar repl/target/protogrid-repl-1.0-SNAPSHOT.one-jar.jar)
 * Experiment
 
-## Syntax - see [README-SYNTAX.markdown](protogrid/README-SYNTAX.markdown)
+## Syntax - see [README-SYNTAX.markdown](protogrid/blob/master/README-SYNTAX.markdown#readme)
 
