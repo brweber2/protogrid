@@ -9,16 +9,16 @@
   "abc\"def"
 
 ### built in objects
-> true
-> false
-> nil
-> undefined
+>    true
+>    false
+>    nil
+>    undefined
 
 ### built in functions
 > * clone(<parent>)
->  clone(Object)
+>    clone(Object)
 > * this (returns the current context in a method)
-> this
+>    this
 > * print( <values> )
 > * println( <values> )
 > * strf( formatstring, List( <args> ) )
@@ -30,11 +30,11 @@
 
 ### create a variable in the current scope
 > * var <name>
-> var foo
+>    var foo
 
 ### assignment
 > * <name> = <value>
-> foo = bar.baz("abc")
+>    foo = bar.baz("abc")
 
 ### slot access
 > * <object>.<slot>
