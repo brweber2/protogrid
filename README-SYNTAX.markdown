@@ -4,8 +4,10 @@
 
 ### literals
 * Number
+
 >    1234.4
 * String
+
 >    "abc\"def"
 
 ### built in objects
