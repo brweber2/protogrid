@@ -81,7 +81,7 @@
 
 > 12 < 14
 
-* == != work for booleans as well
+* == != work for true, false, nil and undefined as well
 
 > true != false
 
