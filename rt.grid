@@ -1,0 +1,23 @@
+var ifResult = clone( Object )
+
+var realize = [expr] {
+    var isFunc = expr.type() == "Function"
+    var isBlock = expr.type() == "Block"
+    if ( isFunc || isBlock expr() expr )
+}
+
+ifResult.else = [falseExpr] {
+    var temp = this()
+    var cond = temp.truth
+    var trueExpr = temp.result
+    if ( cond trueExpr realize( falseExpr ) )
+}
+
+var iff = [cond trueExpr] {
+   ifResult = new(ifResult)
+   ifResult.truth = realize( cond )
+   ifResult.result = if ( ifResult.truth realize( trueExpr ) nil )
+   ifResult
+}
+
+var strf = [ s lst ] { WrapClass( java.lang.String ).format( s lst.toarray( ) ) }
