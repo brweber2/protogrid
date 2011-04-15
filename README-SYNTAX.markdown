@@ -57,12 +57,12 @@
 > clone(Object)
 
 ### define a function (can be invoked)
-* [ _params>_] { _code_ }
+* [ _params_ ] { _code_ }
 
 > [a b] { a * b + a }
 
 ### define a block (can be invoked)
-* { _code>_}
+* { _code_ }
 
 > { println( "hi" ) }
 
