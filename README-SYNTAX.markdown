@@ -10,23 +10,26 @@
 
 ### built in objects
   true
+
   false
+
   nil
+
   undefined
 
 ### built in functions
-* clone(<parent>)
-  clone(Object)
-* this (returns the current context in a method)
-  this
-* print( <values> )
-* println( <values> )
-* strf( formatstring, List( <args> ) )
-* List( <values> )
-* if ( <cond> <true> <false> )
-* try( <cond> <finally> )
-* loop( <list> <func> )
-* while( <cond> <block> )
+* > clone(<parent>)
+  > clone(Object)
+* > this (returns the current context in a method)
+  > this
+* > print( <values> )
+* > println( <values> )
+* > strf( formatstring, List( <args> ) )
+* > List( <values> )
+* > if ( <cond> <true> <false> )
+* > try( <cond> <finally> )
+* > loop( <list> <func> )
+* > while( <cond> <block> )
 
 ### create a variable in the current scope
 * var <name>
