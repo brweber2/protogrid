@@ -13,3 +13,4 @@
 
 ## Syntax - see [README-SYNTAX.markdown](protogrid/blob/master/README-SYNTAX.markdown#readme)
 
+## Blog - see [brweber2.com](http://www.brweber2.com/blog/?p=9)
